@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="wrap" ng-controller="MyCtrl">
+    <div class="wrapper" ng-controller="MyCtrl">
       <div class="hide">
         <div style="margin-top: 3rem;">navOpened = {{navOpened}}</div>
         <button ng-click="navToggle()">toggle</button>
@@ -18,7 +18,8 @@
         <ul>
           <li><a href="#section-1" du-smooth-scroll du-scrollspy>Section 1</a></li>
           <li><a href="#section-2" du-smooth-scroll du-scrollspy>Section 2</a></li>
-          <li><a href="#section-3" du-smooth-scroll="section-3" du-scrollspy>Section 3</a></li>
+          <li><a href="#section-3" du-smooth-scroll du-scrollspy>Section 3</a></li>
+          <li><a href="#section-4" du-smooth-scroll du-scrollspy>Section 4</a></li>
         </ul>
       </nav>
       <h1>Angular.js Scrollspy Example</h1>
@@ -77,7 +78,7 @@
           $document.scrollToElementAnimated(section3);
         }
       }
-    ).value('duScrollOffset', 30);
+    ).value('duScrollOffset', 10);
     </script>
   </body>
 </html>
