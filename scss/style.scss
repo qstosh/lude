@@ -434,20 +434,28 @@ figure {
 .nav-toggle {
 
   display: none;
+  flex-flow: column nowrap;
   position: fixed;
   z-index: 999;
   top: 2.2rem;
-  right: 2.2rem;
-  border: none;
-  background: none;
-  width: 3rem;
+  right: 3rem;
+  // border: 1px solid $main-color;
+  background: lighten(black, 5%);
+  width: 3.2rem;
+  height: 3.2rem;
+  padding: .5rem;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  opacity: .75;
 
   i {
 
-    display: block;
+    display: flex;
     height: 2px;
-    margin-bottom: 5px;
-    border: 1px solid $main-color;
+    width: 100%;
+    margin: 3px;
+    border: 1px solid white;
   }
 }
 
@@ -455,7 +463,15 @@ figure {
 
     .nav-toggle {
 
-      display: block;
+      display: flex;
+
+      .line-1,
+      .line-3 {
+
+        position: relative;
+        // width: 30px;
+        // top: 0;
+      }
     }
 
     img {
@@ -488,13 +504,34 @@ figure {
 
       main {
 
-        opacity: .05;
+        opacity: .08;
+        filter: blur(4px);
       }
 
       nav {
 
         visibility: visible;
         opacity: 1;
+      }
+
+      .nav-toggle {
+
+        .line-2 {
+
+          display: none;
+        }
+
+        .line-1 {
+
+          transform: rotate(45deg);
+          top: 4px;
+        }
+
+        .line-3 {
+
+          transform: rotate(-45deg);
+          top: -4px;
+        }
       }
     }
 
@@ -507,6 +544,7 @@ figure {
 
       nav {
 
+        display: none;
         visibility: hidden;
         opacity: 0;
       }

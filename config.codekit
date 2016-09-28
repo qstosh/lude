@@ -808,6 +808,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/plateaux.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 319803,
+		"inputAbbreviatedPath": "\/img\/plateaux.png",
+		"outputAbbreviatedPath": "\/img\/plateaux.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/telewizja.png": {
 		"fileType": 32768,
 		"ignore": 0,
