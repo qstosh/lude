@@ -18,7 +18,7 @@
               Hollywood dla Firm
               <span>Film &amp; Team building</span>
             </h1>
-            <img src="img/imersja.png" alt="">
+            <img ng-src="img/imersja.png" alt="" width="477" height="318">
             <p>Hollywood dla Firm to serwis, który zapewnia najlepsze rozwiązanie w ramach skutecznego team buildingu, używając filmu jako głównego narzędzia. Od wyjazdu integracyjnego do wewnętrznej telewizji firmowej. A wszystko w elastycznej i bogatej ofercie dopasowanej do każdego budżetu.</p>
             <h2>Dlaczego Film?</h2>
             <p>Każda firma, która odnosi sukces ma wizje. By dotrzeć do celu potrzebuje przede wszystkim ekipy zdolnych i zmotywowanych ludzi, którzy zmierzają razem w kierunku spełnienia tej wizji. Tworzenie filmów działa dokładnie w ten sam sposób i dlatego powstał serwis Hollywood dla Firm.</p>
@@ -41,7 +41,7 @@
           <div class="section-wrapper oferta">
             <figure name="ceremonia">
               <h1>Ceremonia oskarowa</h1>
-              <img src="img/ceremonia.png" alt="">
+              <img ng-src="img/ceremonia.jpg" alt="" width="477" height="358">
               <p class="ikona"><i class="fa fa-user fa-lg"></i><span>1 dzień / 5 godzin</span></p>
               <p class="ikona"><i class="fa fa-clock-o fa-lg"></i><span>12 – 120 osób</span></p>
               <p>Po krótkim briefingu, grupa (10-12 osób) kierowana przez trenera staje się ekipą filmową, która ma 5 godzin, aby nagrać film krótkometrażowy, grupa m.in. tworzy kostiumy, dzieli się rolami (reżyser, aktorzy, scenografia i stylizacja itp). Wieczorem osoba prowadząca wita uczestników na czerwonym dywanie, czyli wyjątkowej, unikalnej hollywoodzkiej gali. Wyświetlane są filmy i publiczność głosuje na najlepszy film, najlepszego reżysera oraz najlepszych aktorów.</p>
@@ -54,7 +54,7 @@
             </figure>
             <figure name="imersja">
               <h1>Imersja na planie filmowym</h1>
-              <img src="img/plateaux.png" alt="">
+              <img ng-src="img/plateaux.png" alt="" width="477" height="316">
               <p class="ikona"><i class="fa fa-user fa-lg"></i><span>2 dni / 10 godzin</span></p>
               <p class="ikona"><i class="fa fa-clock-o fa-lg"></i><span>12 – 30 osób</span></p>
               <p>Prawdziwy plan filmowy, na którym uczestnicy współpracują z profesjonalną ekipą, aby tworzyć film autorski. Małe grupy uczestników (2 do 10 osób) są zaangażowane w każdej dziedzinie filmowej (reżyseria, kamerowanie, stylizacja, aktorstwo), a za zadanie mają tworzyć autorski film oraz rekonstrukcje kilku scen kultowych filmów.</p>
@@ -70,7 +70,7 @@
             </figure>
             <figure name="telewizja">
               <h1>Telewizja wewnętrzna</h1>
-              <img src="img/telewizja.png" alt="">
+              <img ng-src="img/telewizja.png" alt="" width="477" height="356">
               <p class="ikona"><i class="fa fa-user fa-lg"></i><span>1 dzień / 6 godzin</span></p>
               <p class="ikona"><i class="fa fa-clock-o fa-lg"></i><span>4 – 20 osób</span></p>
               <p>Uczestnicy warsztatów uczą się jak prowadzić telewizję, tworzyć materiały filmowe oraz jak robić własne tutoriale edukacyjne. Ekipa telewizyjna dostaje komplet zawierający Ipad'a do nakręcenia i do montażu materiałów oraz podstawowy sprzęt do nagrywanie dźwięku oraz światła.</p>
@@ -82,7 +82,7 @@
             </figure>
             <figure name="zamowienie">
               <h1>Na zamównie</h1>
-              <img src="img/zamowienie.png" alt="">
+              <img ng-src="img/zamowienie.png" alt="" width="477" height="358">
               <p>Nasza filozofia bazuje na zdolności adaptacji do potrzeb naszych klientów, dlatego Hollywood dla Firm to projekt team buildingowy, ale również serwis tworzący indywidualne filmy promocyjne.</p>
               <div class="spacer"</div>
             </figure>
@@ -92,7 +92,7 @@
         <section name="nasi-klienci">
           <div class="section-wrapper">
             <h1>Humans of Raya</h1>
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/F140SvtWlh8?rel=0" frameborder="0" allowfullscreen></iframe>
+            <iframe width="530" height="297" src="https://www.youtube.com/embed/F140SvtWlh8?rel=0" frameborder="0" allowfullscreen></iframe>
             <p>Film powstał w 2016r., kiedy firma RAYA pojawiała się na polskim rynku. To firma z Egiptu, która prowadzi m.in w Polsce call center dla CISCO. Ten film miał na celu pokazanie ludzkiej twarzy firmy.</p>
           </div>
           <div class="spacer"</div>
@@ -117,6 +117,7 @@
 
       <nav role="navigation">
         <ul class="nav-wrapper">
+          <img class="logo" ng-src="img/logo.jpg" alt="" width="200" height="50">
           <li><a ng-click="navOpened = false" href="#o-nas" class="nav-item" du-smooth-scroll du-scrollspy>O nas</a></li>
           <li>
             <a ng-click="navOpened = false" href="#ceremonia" class="nav-item" du-smooth-scroll du-scrollspy id="nav-item-oferta">Oferta</a>
@@ -140,9 +141,10 @@
     </div>
 
     <script src="angular.min.js"></script>
-    <script src="angular-scroll.js"></script>
+    <script src="angular-scroll.min.js"></script>
+    <script src="angular-retina.min.js"></script>
     <script>
-    angular.module('myApp', ['duScroll']).
+    angular.module('myApp', ['duScroll', 'ngRetina']).
       controller('MyCtrl', function($scope, $document){
         $scope.navOpened = false;
 
@@ -159,46 +161,46 @@
         $document.on('scroll', function() {
           console.log('scrollTop = ', $document.scrollTop());
 
-          if($document.scrollTop() >= 1064 && $document.scrollTop() < 4234) {
+          if($document.scrollTop() >= 1024 && $document.scrollTop() < 4192) {
             this.getElementById('nav-item-oferta').classList.add('active-dummy');
             this.getElementById('nav-item-ceremonia').classList.add('active-dummy');
-            console.log("cond 1");
+            // console.log("cond 1");
 
-            if($document.scrollTop() >= 1938 && $document.scrollTop() < 4234) {
+            if($document.scrollTop() >= 1898 && $document.scrollTop() < 4192) {
               this.getElementById('nav-item-ceremonia').classList.remove('active-dummy');
-              console.log("cond 1a");
+              // console.log("cond 1a");
             }
           }
 
-          else if($document.scrollTop() >= 1064 && $document.scrollTop() < 1938) {
-            console.log("cond 2");
+          else if($document.scrollTop() >= 1024 && $document.scrollTop() < 1898) {
+            // console.log("cond 2");
           }
 
-          else if($document.scrollTop() < 1064) {
+          else if($document.scrollTop() < 1024) {
             this.getElementById('nav-item-oferta').classList.remove('active-dummy');
             this.getElementById('nav-item-ceremonia').classList.remove('active-dummy');
-            console.log("cond 3");
+            // console.log("cond 3");
           }
 
 
 
-          else if($document.scrollTop() >= 4234) {
+          else if($document.scrollTop() >= 4192) {
             this.getElementById('nav-item-oferta').classList.remove('active-dummy');
             this.getElementById('nav-item-ceremonia').classList.remove('active-dummy');
-            console.log("cond 4");
+            // console.log("cond 4");
           }
         });
 
-        $scope.toTheTop = function() {
-          $document.scrollTopAnimated(0, 500).then(function() {
-            console && console.log('You just scrolled to the top!');
-          });
-        }
-
-        var section3 = angular.element(document.getElementById('section-3'));
-        $scope.toSection3 = function() {
-          $document.scrollToElementAnimated(section3);
-        }
+        // $scope.toTheTop = function() {
+        //   $document.scrollTopAnimated(0, 500).then(function() {
+            // console && console.log('You just scrolled to the top!');
+        //   });
+        // }
+        //
+        // var section3 = angular.element(document.getElementById('section-3'));
+        // $scope.toSection3 = function() {
+        //   $document.scrollToElementAnimated(section3);
+        // }
       }
     ).value('duScrollOffset', 30);
     </script>

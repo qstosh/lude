@@ -2,6 +2,17 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19137",
 "files": {
+	"\/angular-retina.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/angular-retina.min.js",
+		"outputAbbreviatedPath": "\/min\/angular-retina.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/angular-scroll.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -720,13 +731,46 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/img\/ceremonia.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29465,
+		"inputAbbreviatedPath": "\/img\/ceremonia.jpg",
+		"outputAbbreviatedPath": "\/img\/ceremonia.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/ceremonia.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 91070,
+		"initialSize": 90813,
 		"inputAbbreviatedPath": "\/img\/ceremonia.png",
 		"outputAbbreviatedPath": "\/img\/ceremonia.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ceremonia@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86544,
+		"inputAbbreviatedPath": "\/img\/ceremonia@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/ceremonia@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ceremonia@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 340388,
+		"inputAbbreviatedPath": "\/img\/ceremonia@2x.png",
+		"outputAbbreviatedPath": "\/img\/ceremonia@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -797,6 +841,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/imersja@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 592202,
+		"inputAbbreviatedPath": "\/img\/imersja@2x.png",
+		"outputAbbreviatedPath": "\/img\/imersja@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6553,
+		"inputAbbreviatedPath": "\/img\/logo.jpg",
+		"outputAbbreviatedPath": "\/img\/logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17188,
+		"inputAbbreviatedPath": "\/img\/logo@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/logo@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/o-nas.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -804,6 +881,17 @@
 		"initialSize": 96526,
 		"inputAbbreviatedPath": "\/img\/o-nas.png",
 		"outputAbbreviatedPath": "\/img\/o-nas.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/o-nas@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 371526,
+		"inputAbbreviatedPath": "\/img\/o-nas@2x.png",
+		"outputAbbreviatedPath": "\/img\/o-nas@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -819,6 +907,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/plateaux@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.10609e+06,
+		"inputAbbreviatedPath": "\/img\/plateaux@2x.png",
+		"outputAbbreviatedPath": "\/img\/plateaux@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/telewizja.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -830,6 +929,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/telewizja@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 652588,
+		"inputAbbreviatedPath": "\/img\/telewizja@2x.png",
+		"outputAbbreviatedPath": "\/img\/telewizja@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/zamowienie.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -837,6 +947,17 @@
 		"initialSize": 151534,
 		"inputAbbreviatedPath": "\/img\/zamowienie.png",
 		"outputAbbreviatedPath": "\/img\/zamowienie.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/zamowienie@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 596848,
+		"inputAbbreviatedPath": "\/img\/zamowienie@2x.png",
+		"outputAbbreviatedPath": "\/img\/zamowienie@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

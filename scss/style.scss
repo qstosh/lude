@@ -258,11 +258,11 @@ figure {
         content: "";
         display: block;
         position: absolute;
-        left: -1.5rem;
         top: 0;
+        left: 0;
         height: 100%;
         border-left: 1px solid black;
-        opacity: .2;
+        opacity: .4;
       }
 
       &.active,
@@ -292,7 +292,7 @@ figure {
 
        font-size: 1.25rem;
        font-weight: bold;
-       padding: .7rem 0;
+       padding: .7rem 0 .7rem 1.5rem;
 
        &.active.active-dummy,
        &.active-dummy {
@@ -304,7 +304,7 @@ figure {
       &.sub-nav-item {
 
         font-weight: 200;
-        padding: .5rem 0;
+        padding: .7rem 0 .7rem 1.5rem;
 
         &:before {
 
@@ -366,9 +366,17 @@ figure {
   }
 }
 
+iframe {
 
+  width: 100% !important;
+  max-width: 530px !important;
+}
 
+.logo {
 
+  margin-bottom: 2rem;
+  pointer-events: none;
+}
 
 
 
@@ -459,7 +467,12 @@ figure {
   }
 }
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 1030px) {
+
+    .logo {
+
+      display: none;
+    }
 
     .nav-toggle {
 
@@ -476,7 +489,9 @@ figure {
 
     img {
 
-      width: 100%;
+      width: 100% !important;
+      max-width: 477px !important;
+      height: auto !important;
     }
 
     .wrapper {
