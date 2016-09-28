@@ -334,7 +334,7 @@ figure {
       }
     }
 
-    &:hover a {
+    nav:hover a {
 
       opacity: .5;
 
@@ -472,6 +472,23 @@ iframe {
     .logo {
 
       display: none;
+    }
+
+    nav a[class*="nav-item"] {
+
+      opacity: 1;
+
+      &:before {
+
+        display: none;
+      }
+
+      &.active,
+      &.active.active-dummy,
+      &.active-dummy {
+
+        opacity: 1;
+      }
     }
 
     .nav-toggle {
