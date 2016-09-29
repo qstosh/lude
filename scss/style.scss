@@ -21,7 +21,7 @@ html {
 
 body {
 
-  background: #FAFAFA;
+  background: white;
 }
 
 html,
@@ -370,6 +370,7 @@ iframe {
 
   width: 100% !important;
   max-width: 530px !important;
+  margin-top: 1.5rem;
 }
 
 .logo {
@@ -467,8 +468,22 @@ iframe {
   }
 }
 
+.logo-mobile {
+
+  display: none;
+}
+
 @media only screen and (max-width: 1030px) {
 
+  .wrapper main {
+
+    padding-right: 1.5rem;
+  }
+
+  .logo-mobile {
+
+    display: block;
+  }
   .logo {
 
     display: none;
@@ -488,6 +503,11 @@ iframe {
     &.active-dummy {
 
       opacity: 1;
+
+      &:before {
+
+        display: block;
+      }
     }
   }
 
@@ -504,11 +524,22 @@ iframe {
     }
   }
 
-  img {
+  img.main-image {
 
-    width: 100% !important;
-    max-width: 477px !important;
-    height: auto !important;
+    width: 100%;
+    max-width: 477px;
+    height: auto;
+  }
+
+  h1.desktop {
+
+    display: none;
+  }
+
+  .logo-mobile img {
+
+    width: 200px;
+    margin-bottom: 2rem;
   }
 
   .wrapper {
@@ -588,6 +619,11 @@ iframe {
   }
 
   @media only screen and (max-width: 420px) {
+
+    .wrapper main {
+
+      padding-right: .75rem;
+    }
 
     .wrapper .section-wrapper {
 
