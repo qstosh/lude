@@ -874,6 +874,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7645,
+		"inputAbbreviatedPath": "\/img\/logo.png",
+		"outputAbbreviatedPath": "\/img\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo@2x.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -881,6 +892,17 @@
 		"initialSize": 17188,
 		"inputAbbreviatedPath": "\/img\/logo@2x.jpg",
 		"outputAbbreviatedPath": "\/img\/logo@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18492,
+		"inputAbbreviatedPath": "\/img\/logo@2x.png",
+		"outputAbbreviatedPath": "\/img\/logo@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -925,6 +947,28 @@
 		"initialSize": 1.10609e+06,
 		"inputAbbreviatedPath": "\/img\/plateaux@2x.png",
 		"outputAbbreviatedPath": "\/img\/plateaux@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/RCC.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20664,
+		"inputAbbreviatedPath": "\/img\/RCC.png",
+		"outputAbbreviatedPath": "\/img\/RCC.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/RCC@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63133,
+		"inputAbbreviatedPath": "\/img\/RCC@2x.png",
+		"outputAbbreviatedPath": "\/img\/RCC@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
